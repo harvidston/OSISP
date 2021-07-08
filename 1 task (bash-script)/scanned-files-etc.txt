@@ -1,0 +1,5 @@
+/etc/profile.d   cedilla-portuguese.sh   1003
+/etc/ufw   after.rules   1004
+/etc/brltty/Text   ascii-basic.tti   1004
+/etc/brltty/Input   menu.kti   1001
+/etc/brltty/Attributes   left_right.atb   1009

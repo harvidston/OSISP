@@ -1,0 +1,21 @@
+#!/bin/bash
+
+#Написать скрипт для поиска файлов заданного размера в заданном каталоге(имя каталога задаётся пользователем в качестве третьего аргумента командной строки). Диапазон(мин.- мах.) размеров файлов задаётся пользователем в качестве первого и второго аргумента командной строки. Вывести на консоль первые найденные 20 файлов в виде: полный путь, имя файла, его размер.
+error_file="/tmp/exec_errors.txt"
+if [ $# -ne 4 ]
+then 
+	echo "$(basename:$0): Error: Incorrect number of args" 1>&2 
+exit 1
+fi
+exec 3>&2
+exec 2>$error_file
+
+find="find $3 -type f"
+$find -size +$1c -size -$2c -printf "%h   %f   %s\n" 1>$4
+echo "Number of scanned files:"
+$find -size +$1c -size -$2c -printf "%h   %f   %s\n" | wc -l 
+ 
+exec 2>&3 
+sed "s/[[:alpha:]]*:/$(basename $0):/" < $error_file 1>&2
+
+exit 0		 	
