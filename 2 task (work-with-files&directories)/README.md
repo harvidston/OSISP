@@ -4,6 +4,6 @@
 
 ![Снимок экрана от 2021-07-09 16-41-17](https://user-images.githubusercontent.com/81465846/125131967-506b5280-e10c-11eb-825a-dc6438c2cd72.png)
 
-![Снимок экрана от 2021-07-09 16-44-50](https://user-images.githubusercontent.com/81465846/125132062-7264d500-e10c-11eb-8e7d-3220608d1c7a.png)
+![Снимок экрана от 2021-07-09 16-44-50](https://user-images.githubusercontent.com/81465846/125132322-d5ef0280-e10c-11eb-8325-0353eaee3d1a.png)
 
 ![Снимок экрана от 2021-07-09 16-44-45](https://user-images.githubusercontent.com/81465846/125132020-624cf580-e10c-11eb-975f-ef11f0edd11b.png)
