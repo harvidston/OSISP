@@ -4,10 +4,10 @@
 
 Содержимое одинаковых файлов: 
 
-file1.txt - linux 
+> file1.txt - linux 
 
 Файл с другим содержимым:
 
-file2.txt - example
+> file2.txt - example
 
 ![Снимок экрана от 2021-07-09 18-13-40](https://user-images.githubusercontent.com/81465846/125132487-0c2c8200-e10d-11eb-88d0-47fb162e62a7.png)
