@@ -1,0 +1,11 @@
+#!/bin/bash
+
+for i in "${@:2}"
+do
+	if grep "$1" "${i}"
+	
+	then 	
+		echo "Строка "$1" найдена в файле ${i}"
+	
+	fi
+done
