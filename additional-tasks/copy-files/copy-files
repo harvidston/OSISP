@@ -1,0 +1,25 @@
+#!/bin/bash
+
+
+argc=$#
+argv=("$@")
+
+for (( j=0; j<argc; j++ )); do
+
+
+if [ -e ${argv[j]} ] 
+then
+
+	find . -size -10M -exec cp -r {} /home/ \;
+    		
+    		j=$(($j+1))
+	else
+    		echo "Compilation finish with error(s)"
+    	exit 1
+	
+fi
+
+done
+
+
+
